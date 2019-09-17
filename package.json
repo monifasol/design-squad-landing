@@ -1,0 +1,36 @@
+{
+  "name": "design-squad-landing",
+  "version": "1.0.0",
+  "description": "Design Squad Landing",
+  "main": "index.html",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org:design-squad-landing/design-squad-landing.git"
+  },
+  "author": "Monica Saiz - wwwm.monica-saiz.com",
+  "homepage": "www.monica-saiz.com",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-js-minify": "0.0.3",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-open": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "lite-server": "^2.2.0"
+  },
+  "dependencies": {
+    "natives": "^1.1.6",
+    "node-sass": "^4.9.2",
+    "particles.js": "^2.0.0",
+    "particlesjs": "^2.2.3"
+  }
+}

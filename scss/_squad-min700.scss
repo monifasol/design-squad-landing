@@ -1,0 +1,121 @@
+@media all and (min-width: 700px) {
+
+
+h1 {
+  font-size: 38px;
+	line-height: 45px;
+}
+
+// **************** Sections  *****************
+
+.discover, .projects, .students, .people_wrapper {
+  margin: 30px auto 0;
+	width: 94vw;
+}
+
+// **************** Discover  *****************
+
+.discover {
+
+  &-description {
+    margin-top: 30px;
+  }
+
+  &-programs {
+    margin-top: 30px;
+
+    &-item {
+      flex: 0 0 48%;
+      padding: 30px;
+      margin-bottom: 20px;
+
+      .bootcamp-duration {
+        font-size: 14px;
+        line-height: 30px;
+      }
+      .bootcamp-title {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.02em;
+      }
+      .bootcamp-text {
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        color: #818693;
+        margin-top: 16px;
+      }
+    }
+  }
+}
+
+// **************** Figures  *****************
+
+.figures {
+	margin-top: 56px;
+	padding: 45px 20px 20px 0;
+	.figures-wrapper {
+		margin: 50px auto 20px;
+		width: 94vw;
+		.figure {
+			flex: 1 1 22%;
+		}
+	}
+}
+
+// **************** Projects  *****************
+
+.projects {
+	margin-top: 30px;
+
+	.projects-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 30px;
+		margin-bottom: 30px;
+
+		.project {
+			flex: 0 1 48%;
+			.text {
+				text-align: left;
+			}
+		}
+	}
+}
+
+
+// **************** Students  *****************
+
+.people {
+	margin-top: 30px;
+
+	.people_wrapper {
+		margin-top: 30px;
+
+		.person {
+			width: 30%;
+		}
+	}
+}
+
+// **************** Teachers  *****************
+
+.teachers {
+  padding-top: 30px;
+}
+
+// **************** Footer  *****************
+
+footer {
+  padding: 30px 20px;
+
+  .footer-button {
+    margin: 30px auto;
+  }
+}
+
+}

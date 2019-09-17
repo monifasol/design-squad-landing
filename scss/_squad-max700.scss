@@ -1,0 +1,285 @@
+
+// **************** Main  *****************
+
+body {
+  color: $font-color;
+  font-family:  $font;
+  line-height: $main_line_height;
+}
+
+h1 {
+  font-family: $font-mono;
+  font-weight: 500;
+  line-height: 40px;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+// **************** Header  *****************
+
+header {
+  width: 100vw;
+}
+
+.header {
+  &-logo {
+    margin: 0px auto;
+    width: 150px;
+    z-index: 99;
+    img {
+      width: 100%;
+    }
+  }
+  &-picture {
+
+    background-image: url("../img/squad.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-top: -80px;
+    width: 100vw;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+
+    .landing-title {
+      font-family: $font-mono;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 45px;
+      color: white;
+      text-align: center;
+    }
+
+  }
+
+  &-button {
+    background-color: $ironhack-blue;
+    color: white;
+    width: 235px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin: 20px auto;
+    cursor: pointer;
+  }
+}
+
+
+// **************** Sections  *****************
+
+.discover, .projects, .students, .people_wrapper {
+  width: 90vw;
+  margin: 20px auto 0;
+}
+
+// **************** Discover  *****************
+
+.discover {
+  padding: 10px;
+
+  &-description {
+    margin: 20px auto 0;
+    color: $grey-text;
+    width: 97%;
+    text-align: justify;
+
+  }
+
+  &-programs {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &-item {
+      flex: 0 0 100%;
+      background: #F8F8F8;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      border-radius: 6px;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+
+      .bootcamp-duration {
+        color: #EC3A35;
+        font-size: 14px;
+        line-height: 30px;
+      }
+      .bootcamp-title {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        font-family: $font-mono;
+      }
+      .bootcamp-text {
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        color: #818693;
+        margin-top: 16px;
+      }
+    }
+  }
+}
+
+// **************** Figures  *****************
+
+.figures {
+  width: 100vw;
+  background-color: $ironhack-blue;
+  padding: 40px 10px;
+  margin-top: 20px;
+
+  h1 {
+    color: white !important;
+  }
+
+  .figures-wrapper {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+    .figure {
+      flex: 0 0 45%;
+      padding: 10px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      letter-spacing: -0.02em;
+
+      .number {
+        font-family: Roboto Mono;
+        font-weight: 500;
+        font-size: 96px;
+        line-height: 80px;
+        color: #2D354C;
+      }
+      .text {
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+// **************** Projects  *****************
+
+.projects {
+  margin-top: 20px;
+  padding: 10px;
+
+  .projects-wrapper {
+    margin-top: 20px;
+
+    .project {
+      width: 100%;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      margin-bottom: 30px;
+
+      display: flex;
+      flex-direction: column;
+
+      img {
+        width: 100%;
+      }
+
+      .text {
+        flex: 0 0 100%;
+        padding: 10px 20px;
+        font-size: 18px;
+        text-align: center;
+        border-top: solid 1px $font-color;
+      }
+    }
+  }
+}
+
+
+// **************** Students  *****************
+
+.people {
+  margin-top: 40px;
+
+  .people_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .person {
+      width: 46%;
+      flex: 0 0 auto;
+      padding: 3vw;
+      text-align: center;
+
+      .name {
+        font-family: $font-mono;
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 16px;
+      }
+
+      .description {
+        color: $grey-text;
+        font-family: $font;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+// **************** Teachers  *****************
+
+.teachers {
+  background-color: #F8F8F8;
+  padding-top: 40px;
+
+  .people_wrapper {
+    .person {
+      .img-wrapper {
+        border-radius: 50%;
+        overflow: hidden;
+        img {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}
+
+// **************** Footer  *****************
+
+footer {
+  background-color: $ironhack-blue;
+  padding: 30px 40px;
+  text-align: center;
+
+  .footer-button {
+    background-color: white;
+    color: $ironhack-blue;
+    width: 235px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  h1 {
+    color: white;
+  }
+}

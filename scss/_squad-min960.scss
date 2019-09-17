@@ -1,0 +1,111 @@
+
+@media all and (min-width: 960px){
+
+  header {
+		padding-top: 30px;
+	}
+
+	.header {
+		&-picture {
+			margin-top: -81px;
+		}
+
+		&-button {
+			position: absolute;
+			right: 40px;
+			top: 20px;
+			padding: 5px 10px;
+			border-radius: 6px;
+		}
+
+	  &-logo {
+	    margin: 0px auto;
+	    width: 150px;
+	    z-index: 99;
+	    img {
+	      width: 100%;
+	    }
+	  }
+
+	  &-picture {
+	    background-image: url("../img/squad.png");
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: center;
+	    min-height: 600px;
+
+	    .landing-title {
+	      font-size: 100px;
+	      line-height: 117px;
+	    }
+
+	  }
+	}
+
+
+	// **************** sections  *****************
+
+	.discover, .projects, .students, .people_wrapper {
+	  width: 75vw;
+	  margin: 56px auto 0;
+	}
+
+	.figures {
+		.figures-wrapper {
+			width: 94vw;
+		}
+	}
+
+	.discover {
+		&-programs {
+			margin-top: 40px;
+		}
+	  &-programs {
+			margin-top: 40px;
+	    &-item {
+				flex: 0 1 48%;
+	      padding: 30px;
+				margin-bottom: 0px;
+			}
+		}
+	}
+
+	.projects {
+	  .projects-wrapper {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			justify-content: space-between;
+	    margin-top: 48px;
+
+	    .project {
+	      flex: 0 1 32%;
+	    }
+	  }
+	}
+
+	.people {
+	  margin-top: 40px;
+
+	  .people_wrapper {
+	    margin-top: 40px;
+
+	    .person {
+	      flex: 0 0 24%;
+				.name {
+					font-size: 30px;
+					line-height: 35px;
+				}
+	    }
+	  }
+	}
+
+	.teachers {
+	  margin-top: 40px;
+	}
+
+	footer {
+		padding: 30px 40px;
+	}
+
+}

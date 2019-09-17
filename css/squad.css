@@ -1,0 +1,436 @@
+/* ============================================================
+  RESET Stylesheet
+============================================================ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+body {
+  color: #2D354C;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px; }
+
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  line-height: 40px;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.02em; }
+
+header {
+  width: 100vw; }
+
+.header-logo {
+  margin: 0px auto;
+  width: 150px;
+  z-index: 99; }
+  .header-logo img {
+    width: 100%; }
+
+.header-picture {
+  background-image: url("../img/squad.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -80px;
+  width: 100vw;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: -1; }
+  .header-picture .landing-title {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 45px;
+    color: white;
+    text-align: center; }
+
+.header-button {
+  background-color: #33C3FF;
+  color: white;
+  width: 235px;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin: 20px auto;
+  cursor: pointer; }
+
+.discover, .projects, .students, .people_wrapper {
+  width: 90vw;
+  margin: 20px auto 0; }
+
+.discover {
+  padding: 10px; }
+  .discover-description {
+    margin: 20px auto 0;
+    color: #818693;
+    width: 97%;
+    text-align: justify; }
+  .discover-programs {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .discover-programs-item {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      background: #F8F8F8;
+      -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      border-radius: 6px;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 20px; }
+      .discover-programs-item .bootcamp-duration {
+        color: #EC3A35;
+        font-size: 14px;
+        line-height: 30px; }
+      .discover-programs-item .bootcamp-title {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        font-family: "Roboto Mono", monospace; }
+      .discover-programs-item .bootcamp-text {
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        color: #818693;
+        margin-top: 16px; }
+
+.figures {
+  width: 100vw;
+  background-color: #33C3FF;
+  padding: 40px 10px;
+  margin-top: 20px; }
+  .figures h1 {
+    color: white !important; }
+  .figures .figures-wrapper {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-top: 20px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .figures .figures-wrapper .figure {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+      flex: 0 0 45%;
+      padding: 10px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: center;
+      letter-spacing: -0.02em; }
+      .figures .figures-wrapper .figure .number {
+        font-family: Roboto Mono;
+        font-weight: 500;
+        font-size: 96px;
+        line-height: 80px;
+        color: #2D354C; }
+      .figures .figures-wrapper .figure .text {
+        text-transform: uppercase; }
+
+.projects {
+  margin-top: 20px;
+  padding: 10px; }
+  .projects .projects-wrapper {
+    margin-top: 20px; }
+    .projects .projects-wrapper .project {
+      width: 100%;
+      -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      margin-bottom: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .projects .projects-wrapper .project img {
+        width: 100%; }
+      .projects .projects-wrapper .project .text {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        padding: 10px 20px;
+        font-size: 18px;
+        text-align: center;
+        border-top: solid 1px #2D354C; }
+
+.people {
+  margin-top: 40px; }
+  .people .people_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .people .people_wrapper .person {
+      width: 46%;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      padding: 3vw;
+      text-align: center; }
+      .people .people_wrapper .person .name {
+        font-family: "Roboto Mono", monospace;
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 16px; }
+      .people .people_wrapper .person .description {
+        color: #818693;
+        font-family: "Roboto", sans-serif; }
+      .people .people_wrapper .person img {
+        width: 100%; }
+
+.teachers {
+  background-color: #F8F8F8;
+  padding-top: 40px; }
+  .teachers .people_wrapper .person .img-wrapper {
+    border-radius: 50%;
+    overflow: hidden; }
+    .teachers .people_wrapper .person .img-wrapper img {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2); }
+
+footer {
+  background-color: #33C3FF;
+  padding: 30px 40px;
+  text-align: center; }
+  footer .footer-button {
+    background-color: white;
+    color: #33C3FF;
+    width: 235px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer; }
+  footer h1 {
+    color: white; }
+
+@media all and (min-width: 700px) {
+  h1 {
+    font-size: 38px;
+    line-height: 45px; }
+  .discover, .projects, .students, .people_wrapper {
+    margin: 30px auto 0;
+    width: 94vw; }
+  .discover-description {
+    margin-top: 30px; }
+  .discover-programs {
+    margin-top: 30px; }
+    .discover-programs-item {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 48%;
+      flex: 0 0 48%;
+      padding: 30px;
+      margin-bottom: 20px; }
+      .discover-programs-item .bootcamp-duration {
+        font-size: 14px;
+        line-height: 30px; }
+      .discover-programs-item .bootcamp-title {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.02em; }
+      .discover-programs-item .bootcamp-text {
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        color: #818693;
+        margin-top: 16px; }
+  .figures {
+    margin-top: 56px;
+    padding: 45px 20px 20px 0; }
+    .figures .figures-wrapper {
+      margin: 50px auto 20px;
+      width: 94vw; }
+      .figures .figures-wrapper .figure {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 22%;
+        flex: 1 1 22%; }
+  .projects {
+    margin-top: 30px; }
+    .projects .projects-wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+      .projects .projects-wrapper .project {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 48%;
+        flex: 0 1 48%; }
+        .projects .projects-wrapper .project .text {
+          text-align: left; }
+  .people {
+    margin-top: 30px; }
+    .people .people_wrapper {
+      margin-top: 30px; }
+      .people .people_wrapper .person {
+        width: 30%; }
+  .teachers {
+    padding-top: 30px; }
+  footer {
+    padding: 30px 20px; }
+    footer .footer-button {
+      margin: 30px auto; } }
+
+@media all and (min-width: 960px) {
+  header {
+    padding-top: 30px; }
+  .header-picture {
+    margin-top: -81px; }
+  .header-button {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    padding: 5px 10px;
+    border-radius: 6px; }
+  .header-logo {
+    margin: 0px auto;
+    width: 150px;
+    z-index: 99; }
+    .header-logo img {
+      width: 100%; }
+  .header-picture {
+    background-image: url("../img/squad.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px; }
+    .header-picture .landing-title {
+      font-size: 100px;
+      line-height: 117px; }
+  .discover, .projects, .students, .people_wrapper {
+    width: 75vw;
+    margin: 56px auto 0; }
+  .figures .figures-wrapper {
+    width: 94vw; }
+  .discover-programs {
+    margin-top: 40px; }
+  .discover-programs {
+    margin-top: 40px; }
+    .discover-programs-item {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 1 48%;
+      flex: 0 1 48%;
+      padding: 30px;
+      margin-bottom: 0px; }
+  .projects .projects-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 48px; }
+    .projects .projects-wrapper .project {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 1 32%;
+      flex: 0 1 32%; }
+  .people {
+    margin-top: 40px; }
+    .people .people_wrapper {
+      margin-top: 40px; }
+      .people .people_wrapper .person {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 24%;
+        flex: 0 0 24%; }
+        .people .people_wrapper .person .name {
+          font-size: 30px;
+          line-height: 35px; }
+  .teachers {
+    margin-top: 40px; }
+  footer {
+    padding: 30px 40px; } }
