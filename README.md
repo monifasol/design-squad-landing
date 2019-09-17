@@ -7,15 +7,15 @@ This is an exercise made in a UX/UI Design bootcamp in Ironhack.
 ## To run locally
 
 // install npm packages
-npm install
+<br/>npm install
 
 // run site
-gulp start
+<br/>gulp start
 
-# To run in server
-design-squad-landing.monifasol.com
+## To run in server
+http://design-squad-landing.monifasol.com
 
 ## Developer
 
 Monica Saiz
-www.monica-saiz.com
+<br/>http://www.monica-saiz.com
