@@ -26,8 +26,8 @@ h1 {
 
     &-item {
       flex: 0 0 48%;
-      padding: 30px;
       margin-bottom: 20px;
+      padding: 30px;
 
       .bootcamp-duration {
         font-size: 14px;
@@ -41,10 +41,10 @@ h1 {
         letter-spacing: -0.02em;
       }
       .bootcamp-text {
+        color: #818693;
         font-size: 20px;
         line-height: 32px;
         text-align: center;
-        color: #818693;
         margin-top: 16px;
       }
     }
@@ -54,7 +54,7 @@ h1 {
 // **************** Figures  *****************
 
 .figures {
-	margin-top: 56px;
+	margin-top: 36px;
 	padding: 45px 20px 20px 0;
 	.figures-wrapper {
 		margin: 50px auto 20px;
@@ -87,7 +87,6 @@ h1 {
 	}
 }
 
-
 // **************** Students  *****************
 
 .people {
@@ -106,6 +105,13 @@ h1 {
 
 .teachers {
   padding-top: 30px;
+
+  .people_wrapper {
+    .person {
+      padding: 30px;
+      width: 36%;
+    }
+  }
 }
 
 // **************** Footer  *****************

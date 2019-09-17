@@ -137,15 +137,15 @@ header {
       border-radius: 6px;
       padding: 20px;
       text-align: center;
-      margin-bottom: 20px; }
+      margin-bottom: 40px; }
       .discover-programs-item .bootcamp-duration {
         color: #EC3A35;
         font-size: 14px;
         line-height: 30px; }
       .discover-programs-item .bootcamp-title {
         font-weight: 500;
-        font-size: 32px;
-        line-height: 30px;
+        font-size: 30px;
+        line-height: 40px;
         text-align: center;
         letter-spacing: -0.02em;
         font-family: "Roboto Mono", monospace; }
@@ -159,8 +159,7 @@ header {
 .figures {
   width: 100vw;
   background-color: #33C3FF;
-  padding: 40px 10px;
-  margin-top: 20px; }
+  padding: 40px 10px; }
   .figures h1 {
     color: white !important; }
   .figures .figures-wrapper {
@@ -200,7 +199,6 @@ header {
         text-transform: uppercase; }
 
 .projects {
-  margin-top: 20px;
   padding: 10px; }
   .projects .projects-wrapper {
     margin-top: 20px; }
@@ -228,7 +226,7 @@ header {
         border-top: solid 1px #2D354C; }
 
 .people {
-  margin-top: 40px; }
+  margin-top: 20px; }
   .people .people_wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -255,6 +253,9 @@ header {
         font-family: "Roboto", sans-serif; }
       .people .people_wrapper .person img {
         width: 100%; }
+
+.students {
+  margin-top: 0px; }
 
 .teachers {
   background-color: #F8F8F8;
@@ -297,8 +298,8 @@ footer {
       -webkit-box-flex: 0;
       -ms-flex: 0 0 48%;
       flex: 0 0 48%;
-      padding: 30px;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      padding: 30px; }
       .discover-programs-item .bootcamp-duration {
         font-size: 14px;
         line-height: 30px; }
@@ -309,13 +310,13 @@ footer {
         text-align: center;
         letter-spacing: -0.02em; }
       .discover-programs-item .bootcamp-text {
+        color: #818693;
         font-size: 20px;
         line-height: 32px;
         text-align: center;
-        color: #818693;
         margin-top: 16px; }
   .figures {
-    margin-top: 56px;
+    margin-top: 36px;
     padding: 45px 20px 20px 0; }
     .figures .figures-wrapper {
       margin: 50px auto 20px;
@@ -355,6 +356,9 @@ footer {
         width: 30%; }
   .teachers {
     padding-top: 30px; }
+    .teachers .people_wrapper .person {
+      padding: 30px;
+      width: 36%; }
   footer {
     padding: 30px 20px; }
     footer .footer-button {
@@ -363,8 +367,6 @@ footer {
 @media all and (min-width: 960px) {
   header {
     padding-top: 30px; }
-  .header-picture {
-    margin-top: -81px; }
   .header-button {
     position: absolute;
     right: 40px;
@@ -378,21 +380,14 @@ footer {
     .header-logo img {
       width: 100%; }
   .header-picture {
-    background-image: url("../img/squad.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    margin-top: -81px;
     min-height: 600px; }
     .header-picture .landing-title {
       font-size: 100px;
       line-height: 117px; }
-  .discover, .projects, .students, .people_wrapper {
+  .discover, .projects, .students, .people_wrapper, .figures-wrapper {
     width: 75vw;
     margin: 56px auto 0; }
-  .figures .figures-wrapper {
-    width: 94vw; }
-  .discover-programs {
-    margin-top: 40px; }
   .discover-programs {
     margin-top: 40px; }
     .discover-programs-item {

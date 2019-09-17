@@ -105,7 +105,7 @@ header {
       border-radius: 6px;
       padding: 20px;
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
 
       .bootcamp-duration {
         color: #EC3A35;
@@ -114,8 +114,8 @@ header {
       }
       .bootcamp-title {
         font-weight: 500;
-        font-size: 32px;
-        line-height: 30px;
+        font-size: 30px;
+        line-height: 40px;
         text-align: center;
         letter-spacing: -0.02em;
         font-family: $font-mono;
@@ -137,7 +137,6 @@ header {
   width: 100vw;
   background-color: $ironhack-blue;
   padding: 40px 10px;
-  margin-top: 20px;
 
   h1 {
     color: white !important;
@@ -177,7 +176,6 @@ header {
 // **************** Projects  *****************
 
 .projects {
-  margin-top: 20px;
   padding: 10px;
 
   .projects-wrapper {
@@ -207,10 +205,10 @@ header {
 }
 
 
-// **************** Students  *****************
+// **************** Students and Teachers  *****************
 
 .people {
-  margin-top: 40px;
+  margin-top: 20px;
 
   .people_wrapper {
     display: flex;
@@ -242,7 +240,9 @@ header {
   }
 }
 
-// **************** Teachers  *****************
+.students {
+  margin-top: 0px;
+}
 
 .teachers {
   background-color: #F8F8F8;

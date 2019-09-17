@@ -6,9 +6,6 @@
 	}
 
 	.header {
-		&-picture {
-			margin-top: -81px;
-		}
 
 		&-button {
 			position: absolute;
@@ -28,38 +25,22 @@
 	  }
 
 	  &-picture {
-	    background-image: url("../img/squad.png");
-	    background-repeat: no-repeat;
-	    background-size: cover;
-	    background-position: center;
+      margin-top: -81px;
 	    min-height: 600px;
 
 	    .landing-title {
 	      font-size: 100px;
 	      line-height: 117px;
 	    }
-
 	  }
 	}
 
-
-	// **************** sections  *****************
-
-	.discover, .projects, .students, .people_wrapper {
+	.discover, .projects, .students, .people_wrapper, .figures-wrapper {
 	  width: 75vw;
 	  margin: 56px auto 0;
 	}
 
-	.figures {
-		.figures-wrapper {
-			width: 94vw;
-		}
-	}
-
 	.discover {
-		&-programs {
-			margin-top: 40px;
-		}
 	  &-programs {
 			margin-top: 40px;
 	    &-item {
