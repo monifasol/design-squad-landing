@@ -262,12 +262,6 @@ header {
 .teachers {
   background-color: #F8F8F8;
   padding-top: 40px; }
-  .teachers .people_wrapper .person .img-wrapper {
-    border-radius: 50%;
-    overflow: hidden; }
-    .teachers .people_wrapper .person .img-wrapper img {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2); }
 
 footer {
   background-color: #33C3FF;
@@ -358,9 +352,6 @@ footer {
         width: 30%; }
   .teachers {
     padding-top: 30px; }
-    .teachers .people_wrapper .person {
-      padding: 30px;
-      width: 36%; }
   footer {
     padding: 30px 20px; }
     footer .footer-button {
