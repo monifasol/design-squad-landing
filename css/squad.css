@@ -421,9 +421,7 @@ footer {
     .people .people_wrapper {
       margin-top: 40px; }
       .people .people_wrapper .person {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 24%;
-        flex: 0 0 24%; }
+        width: 25%; }
         .people .people_wrapper .person .name {
           font-size: 30px;
           line-height: 35px; }
