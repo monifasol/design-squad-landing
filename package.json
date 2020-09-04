@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "natives": "^1.1.6",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.13.1",
     "particles.js": "^2.0.0",
     "particlesjs": "^2.2.3"
   }
