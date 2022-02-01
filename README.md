@@ -13,9 +13,8 @@ This is an exercise made in a UX/UI Design bootcamp in Ironhack.
 <br/>gulp start
 
 ## To run in server
-http://design-squad-landing.monifasol.com
+[Landing Page for UX/UI Design Squad](http://design-squad-landing.monifasol.com)
 
 ## Developer
 
-Monica Saiz
-<br/>http://www.monica-saiz.com
+[Monica Saiz](http://www.monicasaiz.com)
